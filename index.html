@@ -35,6 +35,7 @@ nada de estos lenguajes. Si quieres aprender luego, te recomendamos ver lo sigui
       }
     </style>
     <!-- Dentro del head puedes agregar también otros scripts de librerías. -->
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
     <!-- Fin de head. -->
   </head>
   <!-- Dentro de body puedes añadir y modificar el contenido de la página. -->
@@ -45,5 +46,10 @@ nada de estos lenguajes. Si quieres aprender luego, te recomendamos ver lo sigui
     // Aquí puedes dejar código JavaScript que se ejecutará cuando la página se cargue.
     // Importante: no debes importar ningún script externo aquí.
     // Para eso, utiliza script src dentro del head.
+    // import JSConfetti from 'js-confetti'
+
+    const jsConfetti = new JSConfetti()
+
+    jsConfetti.addConfetti()
   </script>
 </html>
